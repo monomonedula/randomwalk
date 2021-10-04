@@ -33,8 +33,9 @@ func BasicTexter() *TexterSimple {
 					" you want the destination to be located within. \n" +
 					"Note that the distances should specified in meters as integers (e.g. 4000, 2500, 500, etc.)",
 
-				"bad_range_format": "Looks like the format was wrong. It should be two numbers, something like this: 500 2300",
-				"input_range":      "OK. Now send me the min and max distance you'd like to walk in meters separated by a space (Like this: 1000 2500)",
+				"bad_range_format":        "Looks like the format was wrong. It should be two numbers, something like this: 500 2300",
+				"input_range":             "OK. Now send me the min and max distance you'd like to walk in meters separated by a space (Like this: 1000 2500)",
+				"send_you_location_first": "Send your location first",
 			},
 			"ru": {
 				"whoops": "Ой, что-то пошло не так. Попробуйте еще раз сначала :(",
@@ -43,8 +44,9 @@ func BasicTexter() *TexterSimple {
 					" понял на какое расстояние прогулки ты рассчитываешь. \n" +
 					"Важно: расстояние следует указывать в метрах как целые числа (например: 4000, 2500, 500 и т.п.)",
 
-				"bad_range_format": "Похоже на ошибку. Укажи минимальное и максимальное расстояние через пробел примерно вот так: 3000 5000",
-				"input_range":      "Ок. Теперь отправь мне минимальное и максимальное расстояние до пункта назначения в метрах через пробел (вроде этого: 1000 2500)",
+				"bad_range_format":        "Похоже на ошибку. Укажи минимальное и максимальное расстояние через пробел примерно вот так: 3000 5000",
+				"input_range":             "Ок. Теперь отправь мне минимальное и максимальное расстояние до пункта назначения в метрах через пробел (вроде этого: 1000 2500)",
+				"send_you_location_first": "Сперва вышли своё местоположение",
 			},
 			"uk": {
 				"whoops": "Ой, щось пішло не так. Спробуйте ще раз спочатку :(",
@@ -52,8 +54,9 @@ func BasicTexter() *TexterSimple {
 					"Спочатку вишли мені своє місцезнаходження, потім вкажи мінімальну і максимальну відстань до пункту призначення. " +
 					"Важливо: відстань слід вказати у метрах через пробіл (ось так: 1000 2500)",
 
-				"bad_range_format": "Схоже на помилку. Вкажи мінімальну і максимальну відстань через пробіл приблизно ось так: 3000 5000",
-				"input_range":      "Ок. Тепер відправ мені мінімальну та максимальну відстань до пункту призначення у метрах через пробіл (наприклад, отак: 1000 2500)",
+				"bad_range_format":        "Схоже на помилку. Вкажи мінімальну і максимальну відстань через пробіл приблизно ось так: 3000 5000",
+				"input_range":             "Ок. Тепер відправ мені мінімальну та максимальну відстань до пункту призначення у метрах через пробіл (наприклад, отак: 1000 2500)",
+				"send_you_location_first": "Спершу надішли своє місцезнаходження",
 			},
 		},
 	}
