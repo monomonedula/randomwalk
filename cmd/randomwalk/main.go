@@ -35,6 +35,7 @@ func main() {
 	texter := txtr.BasicTexter()
 
 	eh := bot.ErrorHandler(b, texter, *log.New(os.Stderr, "ERROR\t", log.Ldate|log.Ltime|log.Lshortfile))
+	b.Handle("/start", bot.Help(b, texter))
 	b.Handle("/help", bot.Help(b, texter))
 	b.Handle(tb.OnLocation, bot.AcceptLocation(b, &rs, texter, eh))
 	b.Handle(tb.OnText, bot.AcceptText(b, &rs, texter, eh))
